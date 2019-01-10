@@ -40,3 +40,8 @@ nav .active {
 #skills-description{
     font-size: 3rem;
 }
+
+footer{
+    height: 7rem;
+    font-size: 1.5rem;
+}

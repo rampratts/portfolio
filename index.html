@@ -55,7 +55,7 @@
           <p class="display-3">my work.</p>
           <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non, sit in? Et ea minus fugiat accusamus aut hic facere labore ipsam tempora, soluta, at, eveniet eligendi laborum dolore recusandae exercitationem.</p>
           <div class="row">
-            <div class="col-md-4 project mb-5">
+            <div class="col-md-4 project mb-3 mb-md-5">
               <img src="https://picsum.photos/300" alt="">
               <div class="project-description text-white">
                 <p class="h2 text-white border-bottom">Project name</p>
@@ -67,7 +67,7 @@
               </div>
             </div>  
 
-            <div class="col-md-4 project">
+            <div class="col-md-4 project mb-3 mb-md-5">
                 <img src="https://picsum.photos/300" alt="">
                 <div class="project-description text-white">
                   <p class="h2 text-white border-bottom">Project name</p>
@@ -79,7 +79,7 @@
                 </div>
               </div> 
 
-              <div class="col-md-4 project">
+              <div class="col-md-4 project mb-3 mb-md-5">
                   <img src="https://picsum.photos/300" alt="">
                   <div class="project-description text-white">
                     <p class="h2 text-white border-bottom">Project name</p>
@@ -91,7 +91,7 @@
                   </div>
                 </div> 
 
-                <div class="col-md-4 project">
+                <div class="col-md-4 project mb-3 mb-md-5">
                     <img src="https://picsum.photos/300" alt="">
                     <div class="project-description text-white">
                       <p class="h2 text-white border-bottom">Project name</p>
@@ -103,7 +103,7 @@
                     </div>
                   </div> 
 
-                  <div class="col-md-4 project">
+                  <div class="col-md-4 project mb-3 mb-md-5">
                       <img src="https://picsum.photos/300" alt="">
                       <div class="project-description text-white">
                         <p class="h2 text-white border-bottom">Project name</p>
@@ -115,7 +115,7 @@
                       </div>
                     </div> 
 
-                    <div class="col-md-4 project">
+                    <div class="col-md-4 project mb-3 mb-md-5">
                         <img src="https://picsum.photos/300" alt="">
                         <div class="project-description text-white">
                           <p class="h2 text-white border-bottom">Project name</p>
@@ -134,16 +134,16 @@
         <div class="container text-center text-dark mt-5">
           <p class="display-3">skills.</p>
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3 mb-md-0">
                 <i class="fab fa-js-square" data-toggle="tooltip" data-placement="top" title="Javascript"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3 mb-md-0">
                 <i class="fab fa-html5" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3 mb-md-0">
                 <i class="fab fa-node" data-toggle="tooltip" data-placement="top" title="NodeJS"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3 mb-md-0">
                 <i class="fab fa-react" data-toggle="tooltip" data-placement="top" title="ReactJS"></i>
             </div>
           </div>
@@ -161,22 +161,57 @@
         
         <div class="container text-center text-dark mt-5">
             <div class="row">
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                   <i class="fab fa-java" data-toggle="tooltip" data-placement="bottom" title="Java"></i>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                   <i class="fab fa-css3-alt" data-toggle="tooltip" data-placement="bottom" title="CSS3"></i>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                   <i class="fas fa-database" data-toggle="tooltip" data-placement="bottom" title="Databases"></i>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 mb-3 mb-md-0">
                   <i class="fab fa-github-square" data-toggle="tooltip" data-placement="bottom" title="Git & GitHub"></i>
               </div>
             </div>
           </div>
       </section>
 
+      <section class="mt-5" id="contact">
+        <div class="container text-center text-primary">
+          <p class="display-3">contact.</p>
+          <p class="lead">feel free to contact me whenever you want:</p>
+          <form class="mt-4">
+            <div class="row">
+              <div class="col-md-6 form-group mx-auto">
+                <label for="name">what's your name?</label>
+                <input type="text" class="form-control border border-primary" id="name" placeholder="name" required>
+              </div>
+
+              
+              <div class="col-md-6 form-group mx-auto">
+                  <label for="email">and your email?</label>
+                  <input type="email" class="form-control border border-primary" id="email" placeholder="email" required>
+              </div>
+
+              
+              <div class="col-12 form-group mx-auto">
+                  <label for="content">what would you like to talk about?</label>
+                  <textarea type="text" class="form-control border border-primary" id="content" placeholder="message content" required></textarea>
+              </div>
+              <input type="submit" class="btn btn-primary col-2 mx-auto" value="send">
+            </div>
+          </form>
+        </div>
+      </section>
+
+
+      <footer class="mt-5 bg-primary text-white">
+        <div class="container text-center">
+          <p class="mt-5">github: <a class="text-white"  target="_blank" href="http://github.com/rampratts">github.com/rampratts</a></p>
+          <p>rampratts.me 2018</p>
+        </div>
+      </footer>
     <!--Popper and js in case I need it, dont know yet 🤔-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

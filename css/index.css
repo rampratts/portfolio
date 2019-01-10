@@ -1,0 +1,11 @@
+nav li {
+    border-bottom: 2px transparent solid;
+}
+
+nav li:hover{
+    border-bottom: 2px white solid;
+}
+
+nav .active {
+    border-bottom: 2px white solid;    
+}

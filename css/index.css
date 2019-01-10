@@ -11,3 +11,24 @@ nav .active {
     border-bottom: 2px white solid;    
 }
 
+.project img {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-description{
+    transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.project:hover img{
+    filter: brightness(20%)
+}
+.project:hover .project-description{
+    opacity:1;
+}

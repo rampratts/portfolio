@@ -32,3 +32,11 @@ nav .active {
 .project:hover .project-description{
     opacity:1;
 }
+
+#skills i{
+    font-size: 6rem;
+}
+
+#skills-description{
+    font-size: 3rem;
+}

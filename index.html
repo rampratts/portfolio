@@ -201,7 +201,16 @@
                   <label for="content">what would you like to talk about?</label>
                   <textarea type="text" class="form-control border border-primary" id="content" placeholder="message content" required></textarea>
               </div>
-              <input type="submit" class="btn btn-primary col-4 col-md-2 mx-auto" value="send">
+
+              <input type="submit" class="btn btn-primary col-4 col-md-2 mx-auto" id="send"  value="send">
+              <div class="col-12">
+                <p class="h3 mt-2 d-none" id="email-success">your email was sent. thank you.</p>
+                <p class="h3 mt-2 d-none" id="email-failure">there has been an error while sending the email.
+                  please try again in some minutes, if the problem persists then contact me directy at <a id="gh-link" href="mailto:rampratts@gmail.com">
+                    rampratts@gmail.com
+                  </a>
+                </p>
+              </div>
             </div>
           </form>
         </div>
@@ -223,6 +232,9 @@
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="js/send-email.js"></script>
 
     <script>
       $(function () {

@@ -52,6 +52,13 @@ nav .active {
     font-size: 6rem;
 }
 
+#skills i:hover{
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
 #skills-description{
     font-size: 3rem;
 }
@@ -60,3 +67,100 @@ footer{
     height: 7rem;
     font-size: 1.5rem;
 }
+
+#heading{
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
+}
+
+#logo{
+    opacity: 0;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+#hello-text{
+    opacity: 0;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#description{
+    opacity: 0;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+#email-success{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: .7s;
+}
+
+#email-failure{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-duration: .7s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+@-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+@-webkit-keyframes fadeInUp {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @-webkit-keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }

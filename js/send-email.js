@@ -32,7 +32,7 @@ sendButton.addEventListener("click" ,(e) => {
         if(message === "OK"){
             successMessage.classList.remove("d-none");
         }else{
-            successMessage.classList.remove("d-none");
+            failureMessage.classList.remove("d-none");
         }
     });
 });

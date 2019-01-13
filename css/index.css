@@ -19,6 +19,14 @@ nav .active {
     border-bottom: 2px white solid;    
 }
 
+#logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: -1px 1px;
+}
+
 .project img {
     
     width: 300px;
@@ -60,7 +68,7 @@ nav .active {
 }
 
 #skills-description{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 footer{
@@ -109,6 +117,20 @@ footer{
     animation-name: fadeIn;
     animation-duration: .7s;
 }
+
+footer a {
+    color:white;
+    font-size: 3rem; 
+}
+
+footer a:hover{
+    color: gray;
+}
+
+footer p {
+    margin-left: 1rem;
+    font-size: 1rem;
+}  
 
 @-webkit-keyframes fadeIn {
     from {

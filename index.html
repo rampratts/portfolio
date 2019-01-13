@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Juan Ramiro Meneses Prattes - full stack developer"/>
+    <meta name="og:title" property="og:title" content="rampratts - Full stack developer">
+    <meta name="og:description" property="og:description" content="My portfolio">
+    <meta name="og:image" property="og:image" content="">
+    <meta name="keywords" content="developer, programador, Uruguay">
+    <meta name="author" content="Juan Ramiro Meneses Prattes">
+    <meta name="owner" content="Juan Ramiro Meneses Prattes">
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <title>rampratts</title>
+    <title>rampratts - full stack developer</title>
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary py-2 mb-5" id="navbar">
@@ -38,7 +47,7 @@
       <section id="about-me">
           <div class="container text-center text-primary">
               <h1 class="display-4" id="heading">full stack developer.</h1>
-              <img class="mt-4" id="logo" src="https://picsum.photos/200" alt="logo">
+              <img class="mt-4" id="logo" src="img/picture.jpg" alt="logo">
               <p class="display-3 mt-5" id="hello-text">hello.</p>
               <p class="lead" id="description">I'm a full stack developer located in Uruguay. I love working with technology and developing new stuff. I'm passionate about programming and most of the work I've done is as a hobby, spending quite a lot of my free time programming and learning new technologies.</p>
           </div>
@@ -69,22 +78,22 @@
             </div>  
 
             <div class="col-md-4 project mb-3 mb-md-5">
-                <img src="img/recipe-app-screenshot.jpg" alt="recipe app screnshot">
+                <img src="img/hangman.png" alt="recipe app screnshot">
                 <div class="project-description text-white">
-                  <p class="h2 text-white border-bottom">Recipe App</p>
-                  <p class="lead">A simple web app to create your recipes. Made with vanilla Javascript. Includes localstorage.</p>
+                  <p class="h2 text-white border-bottom">Hangman Game</p>
+                  <p class="lead">Simple hangman game. It uses an API to get the words.</p>
                   <div class="row">
-                    <a href="https://ramrecipeapp.netlify.com/" target="_blank" class="btn btn-sm btn-primary col-6">Visit project</a>
+                    <a href="https://ramhangman.netlify.com/" target="_blank" class="btn btn-sm btn-primary col-6">Visit project</a>
                     <a href="https://github.com/rampratts/recipe-app" target="_blank" class="btn btn-sm btn-secondary col-6 d-flex justify-content-center align-items-center">See code</a>
                   </div>
                 </div>
               </div> 
 
               <div class="col-md-4 project mb-3 mb-md-5">
-                  <img src="/img/chatapp-screenshot2.jpg" alt="">
+                  <img src="/img/chatapp-screenshot.png" alt="">
                   <div class="project-description text-white">
                     <p class="h2 text-white border-bottom">NodeJS Chat</p>
-                    <p class="lead">A simple NodeJS chat with SocketIO. You can join a room and send private messages</p>
+                    <p class="lead">A NodeJS chat with SocketIO. You can join a room and send private messages</p>
                     <div class="row">
                       <a href="https://sleepy-mountain-80823.herokuapp.com" target="_blank" class="btn btn-sm btn-primary col-6">Visit project</a>
                       <a href="https://github.com/rampratts/node-chatapp" target="_blank" class="btn btn-sm btn-secondary col-6 d-flex justify-content-center align-items-center">See code</a>
@@ -98,19 +107,19 @@
                       <p class="h2 text-white border-bottom">NodeJS Todo API</p>
                       <p class="lead">A full rest api made with NodeJS. Features authentication and database storage with MongoDB.</p>
                       <div class="row">
-                        <a href="" class="btn btn-sm btn-primary col-6">Visit project</a>
-                        <a href="https://github.com/rampratts/Todo-app" target="_blank" class="btn btn-sm btn-secondary col-6 d-flex justify-content-center align-items-center">See code</a>
+                        <!--<a href="" class="btn btn-sm btn-primary col-6">Visit project</a>-->
+                        <a href="https://github.com/rampratts/Todo-app" target="_blank" class="btn btn-sm btn-secondary col-6 mx-auto d-flex justify-content-center align-items-center">See code</a>
                       </div>
                     </div>
                   </div> 
 
                   <div class="col-md-4 project mb-3 mb-md-5">
-                      <img src="https://picsum.photos/300" alt="">
+                      <img src="img/todoapp-screenshot.png" alt="Screnshot of the todo app">
                       <div class="project-description text-white">
-                        <p class="h2 text-white border-bottom">Contact Manager</p>
-                        <p class="lead">A simple Contact Manager made with ReactJS. A fake API is used to get the data.</p>
+                        <p class="h2 text-white border-bottom">Todo App</p>
+                        <p class="lead">Vanilla Javascript todo app. It does not use the NodeJS api, instead it uses localstorage.</p>
                         <div class="row">
-                          <a href="#" class="btn btn-sm btn-primary col-6">Visit project</a>
+                          <a href="https://www.ramtodoapp.netlify.com" target="_blank" class="btn btn-sm btn-primary col-6">Visit project</a>
                           <a href="https://github.com/rampratts/contact-manager" target="_blank" class="btn btn-sm btn-secondary col-6 d-flex justify-content-center align-items-center">See code</a>
                         </div>
                       </div>
@@ -122,8 +131,8 @@
                           <p class="h2 text-white border-bottom">Client Manager</p>
                           <p class="lead">A serverless client manager made with ReactJS and Firebase.</p>
                           <div class="row">
-                            <a href="#" class="btn btn-sm btn-primary col-6">Visit project</a>
-                            <a href="https://github.com/rampratts/client-manager" target="_blank" class="btn btn-sm btn-secondary col-6 d-flex justify-content-center align-items-center">See code</a>
+                            <!--<a href="#" class="btn btn-sm btn-primary col-6">Visit project</a> -->
+                            <a href="https://github.com/rampratts/client-manager" target="_blank" class="btn btn-sm btn-secondary col-6 mx-auto d-flex justify-content-center align-items-center">See code</a>
                           </div>
                         </div>
                       </div> 
@@ -218,9 +227,16 @@
 
 
       <footer class="mt-5 bg-primary text-white">
-        <div class="container text-center">
-          <p class="mt-5">github: <a class="text-white"  target="_blank" href="http://github.com/rampratts">github.com/rampratts</a></p>
-          <p>rampratts.me 2018</p>
+        <div class="text-center">
+          <div class="d-flex justify-content-center">
+              <a href="https://github.com/rampratts" class="mr-3" target="_blank">
+                <i class="fab fa-github-square col-2 offset-4"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/rampratts" target="_blank" class="ml-3 mr-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+          </div>
+          <p class="">Juan Ramiro Meneses Prattes - 2019</p>
         </div>
       </footer>
 

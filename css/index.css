@@ -27,6 +27,10 @@ nav .active {
     object-position: -1px 1px;
 }
 
+#my-work img{
+    object-fit: cover;
+}
+
 .project img {
     
     width: 300px;
